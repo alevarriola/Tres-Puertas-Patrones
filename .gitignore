@@ -1,0 +1,38 @@
+# --- Runtime generated directories ---
+/game/saves/
+/game/cache/
+
+# --- Compiled Ren'Py script files ---
+/game/**/*.rpyc
+/game/**/*.rpymc
+
+# --- Generated backup/temporary files ---
+/game/**/*.bak
+/game/**/*.new
+/game/**/*.old
+
+# --- Error, log, temp output files ---
+/errors.txt
+/files.txt
+/image_cache.txt
+/log.txt
+/save_dump.txt
+/traceback.txt
+/progressive_download.txt
+
+# --- Launcher-generated files ---
+/dialogue.tab
+/dialogue.txt
+/strings.json
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Python cache (Ren'Py usa Python) ---
+__pycache__/
+*.pyc
